@@ -1,0 +1,167 @@
+name: wisely_diary
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.1
+  supabase_flutter: ^2.5.9
+  flutter_signin_button: ^2.0.0
+  flutter_secure_storage: ^9.2.2
+  provider: ^6.0.0
+  google_sign_in: ^6.2.1
+  kakao_flutter_sdk_user: ^1.9.5
+  table_calendar: ^3.0.9
+  http: ^1.1.0
+  path_provider: ^2.0.15
+  path: ^1.8.3
+  flutter_dotenv: ^5.0.2
+  just_audio: ^0.9.34
+  speech_to_text: ^6.6.0
+  permission_handler: ^11.3.1
+  http_parser: ^4.0.0
+  image_picker: ^0.8.4+3
+  cupertino_icons: ^1.0.6
+  record: ^5.1.2
+  android_alarm_manager_plus: ^3.0.4
+  gotrue: any
+  firebase_core: ^3.3.0
+  firebase_messaging: ^15.0.4
+  flutter_local_notifications: ^17.2.1+2
+  timezone: ^0.9.4
+  device_info_plus: ^10.1.1
+  path_provider_android: ^2.2.9
+  intl: ^0.19.0
+  logger: ^1.1.0
+  fl_chart: ^0.35.0
+  flutter_bloc: ^8.1.0
+  audioplayers: ^6.0.0
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/main-app-logo.png"
+
+flutter:
+  fonts:
+    - family: HSSaemaul
+      fonts:
+        - asset: assets/fonts/HSSaemaul-Regular.woff
+    - family: SSRONET_Handwritten
+      fonts:
+        - asset: assets/fonts/SSRONET_Handwritten.ttf
+    - family: OSeongandHanEum-Bold
+      fonts:
+        - asset: assets/fonts/OSeongandHanEum-Bold.ttf
+    - family: OSeongandHanEum-Regular
+      fonts:
+        - asset: assets/fonts/OSeongandHanEum-Regular.ttf
+    - family: NanumSquareRoundR
+      fonts:
+        - asset: assets/fonts/NanumSquareRoundR.ttf
+    - family: NanumSquareRoundL
+      fonts:
+        - asset: assets/fonts/NanumSquareRoundL.ttf
+    - family: NanumSquareRoundB
+      fonts:
+        - asset: assets/fonts/NanumSquareRoundB.ttf
+    - family: NanumSquareRoundEB
+      fonts:
+        - asset: assets/fonts/NanumSquareRoundEB.ttf
+    - family: SCDream1
+      fonts:
+        - asset: assets/fonts/SCDream1.otf
+    - family: SCDream2
+      fonts:
+        - asset: assets/fonts/SCDream2.otf
+    - family: SCDream3
+      fonts:
+        - asset: assets/fonts/SCDream3.otf
+    - family: SCDream4
+      fonts:
+        - asset: assets/fonts/SCDream4.otf
+    - family: SCDream5
+      fonts:
+        - asset: assets/fonts/SCDream5.otf
+    - family: SCDream6
+      fonts:
+        - asset: assets/fonts/SCDream6.otf
+    - family: SCDream7
+      fonts:
+        - asset: assets/fonts/SCDream7.otf
+    - family: SCDream8
+      fonts:
+        - asset: assets/fonts/SCDream8.otf
+    - family: SCDream9
+      fonts:
+        - asset: assets/fonts/SCDream9.otf
+    - family: NanumBarunpenR
+      fonts:
+        - asset: assets/fonts/NanumBarunpenR.ttf
+    - family: NanumBarunpenB
+      fonts:
+        - asset: assets/fonts/NanumBarunpenB.ttf
+    - family: ICHimchan
+      fonts:
+        - asset: assets/fonts/인천교육힘찬.ttf
+
+
+  uses-material-design: true
+  assets:
+    - assets/main-app-logo.png
+    - assets/google_logo.png
+    - assets/kakao_logo.png
+    - assets/wisely-diary-logo.png
+    - assets/emotions/sad.png
+    - assets/emotions/anger.png
+    - assets/emotions/embarrassed.png
+    - assets/emotions/greatful.png
+    - assets/emotions/injustice.png
+    - assets/emotions/joy.png
+    - assets/emotions/lovely.png
+    - assets/emotions/proud.png
+    - assets/emotions/relax.png
+    - assets/emotions/worried.png
+    - assets/audio/anger_bgm.mp3
+    - assets/audio/embarrassed_bgm.mp3
+    - assets/audio/greatful_bgm.mp3
+    - assets/audio/injustice_bgm.mp3
+    - assets/audio/joy_bgm.mp3
+    - assets/audio/lovely_bgm.mp3
+    - assets/audio/proud_bgm.mp3
+    - assets/audio/relax_bgm.mp3
+    - assets/audio/sad_bgm.mp3
+    - assets/audio/worried_bgm.mp3
+    - assets/cuttoon_icon.png
+    - assets/letter_icon.png
+    - assets/music_icon.png
+    - assets/gift_icon.png
+    - assets/diary_icon.png
+    - assets/text_image.png
+    - assets/mic_img.png
+    - assets/text_img.png
+    - assets/stop_img.png
+    - assets/File plus.png
+    - .env
+    - assets/cuttoon_icon.png
+    - assets/gift_icon.png
+    - assets/letter_icon.png
+    - assets/music_icon.png
+    - assets/Edit.png
+    - assets/deactive_cartoon_logo.png
+    - assets/deactive_letter_logo.png
+    - assets/deactive_music_logo.png
+    

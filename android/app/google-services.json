@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "663723532047",
+    "project_id": "wisely-diary-f809e",
+    "storage_bucket": "wisely-diary-f809e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663723532047:android:d0d31da502dc531f2f287a",
+        "android_client_info": {
+          "package_name": "com.example.wisely_diary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgGKyAHNYUQPBvRUbVLPHtI6Gb99OpXS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
